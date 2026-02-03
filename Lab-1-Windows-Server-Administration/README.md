@@ -51,6 +51,7 @@ This lab demonstrates the ability to:
 - Configured the server with a **static IP address**;
 - Prepared the host to operate as a **Domain Controller**.
 
+![Windows Server 2022 Deployment](./images/1serverdeployment.png)
 
 ---
 
@@ -59,6 +60,7 @@ This lab demonstrates the ability to:
 - Promoted the server to a **Domain Controller**;
 - Created a new domain.
 
+![Active Directory creation](./images/2ADcreation.png)
 
 ---
 
@@ -75,6 +77,7 @@ This lab demonstrates the ability to:
 - Joined the workstation to the domain;
 - Verified authentication against the Domain Controller.
 
+![Windows 11 Enterprise Deployment](./images/3win11deployment.png)
 
 ---
 
@@ -82,12 +85,14 @@ This lab demonstrates the ability to:
 - Created a blank website using built-in Windows Server tools;
 - Verified accessibility.
 
+![Website Deployment](./images/5siteserver.png)
 
 ---
 
 ### 6. Scheduled Task Configuration
 - Created a **scheduled reboot task** for the host
 
+![Scheduled task](./images/6reboot.png)
 
 ---
 
@@ -95,6 +100,7 @@ This lab demonstrates the ability to:
 - Added Windows Defender Firewall rules;
 - Allowed **DNS traffic** between Domain Controller and domain host.
 
+![Firewall](./images/7firewall.png)
 
 ---
 
@@ -102,6 +108,7 @@ This lab demonstrates the ability to:
 - Installed and configured an FTP server;
 - Verified basic functionality.
 
+![FTP server](./images/8ftp.png)
 
 ---
 
@@ -114,6 +121,7 @@ This lab demonstrates the ability to:
 ### 10. Backup Configuration
 - Created a scheduled backup task
 
+![Backup configuration](./images/10backup.png)
 
 ---
 
