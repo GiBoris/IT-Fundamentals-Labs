@@ -40,12 +40,10 @@ This lab demonstrates the ability to:
 
 ### 1. Execution Policy Configuration
 
-- Modified PowerShell execution policy to **Bypass**
-- Enabled execution of locally created scripts
+- Modified PowerShell execution policy to **Bypass**;
+- Enabled execution of locally created scripts.
 
-**Security relevance:**  
-Execution policy controls script execution and is frequently modified by attackers.
-Understanding legitimate usage helps differentiate misconfiguration from malicious activity.
+![Execution Policy Configuration](./images/1.png)
 
 ---
 
@@ -58,9 +56,7 @@ Used the following cmdlets to manage services:
 
 Validated service state changes directly from PowerShell.
 
-**Security relevance:**  
-Attackers and administrators alike manipulate services; SOC analysts often review
-service state changes during investigations.
+![Windows Services Management](./images/2.png)
 
 ---
 
@@ -69,9 +65,7 @@ service state changes during investigations.
 - Executed `Select-Object *` to retrieve full object properties
 - Explored detailed metadata returned by PowerShell cmdlets
 
-**Security relevance:**  
-PowerShell objects contain rich telemetry; understanding object structure is essential
-for log analysis and defensive scripting.
+![Object Inspection with Select-Object](./images/3.png)
 
 ---
 
@@ -81,9 +75,7 @@ for log analysis and defensive scripting.
 - Performed operations using variables
 - Created and manipulated arrays
 
-**Security relevance:**  
-Variables and arrays form the basis of automation scripts used in both administration
-and attack tooling.
+![Variables and Arrays](./images/4.png)
 
 ---
 
@@ -92,9 +84,7 @@ and attack tooling.
 - Created a PowerShell script using **Notepad**
 - Implemented a simple **GUI pop-up message**
 
-**Security relevance:**  
-Demonstrates script execution flow and user interaction, concepts often abused in
-social engineering and malware delivery.
+![Script Creation and GUI Pop-Up](./images/5.png)
 
 ---
 
@@ -116,22 +106,6 @@ social engineering and malware delivery.
 - Service management via CLI
 - Object-oriented shell concepts
 - Basic automation and scripting logic
-
----
-
-## Learning Outcomes
-
-- Built confidence using PowerShell for administrative tasks
-- Developed understanding of how PowerShell is used in real-world environments
-- Strengthened scripting foundations needed for SOC, IR, and Blue Team roles
-
----
-
-## Course Reference
-
-- **Practical Windows PowerShell Scripting**  
-  Pearson / Coursera  
-  https://www.coursera.org/specializations/pearson-practical-windows-powershell-scripting
 
 ---
 
