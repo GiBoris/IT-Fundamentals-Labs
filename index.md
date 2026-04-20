@@ -15,5 +15,5 @@ Hands-on IT labs supporting my transition into cybersecurity.
 ### Lab 2 — PowerShell Scripting
 [View Lab →](./Lab-2-PowerShell-Scripting/)
 
-### Lab 3 — PowerShell Scripting
+### Lab 3 — Linux fundamentals
 [View Lab →](./Lab-3-Linux-fundamentals/)
