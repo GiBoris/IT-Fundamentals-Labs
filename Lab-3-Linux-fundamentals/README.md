@@ -135,7 +135,7 @@ Listed running processes.
 
 Checked disk partitions and usage.
 
-![12](Images/3.5.png)
+![12](Images/3.4.png)
 
 ---
 
