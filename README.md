@@ -1,54 +1,71 @@
-IT Fundamentals Labs — Boris
+# IT Fundamentals Labs — Boris
 
-This repository contains hands-on IT fundamentals labs created to support my
-transition into an entry-level cybersecurity role.
+This repository contains hands-on IT fundamentals labs created to support my transition into an **entry-level cybersecurity role**.
 
-The labs focus on core system administration and scripting skills that underpin
-Security Operations (SOC), Incident Response, and Blue Team work.
+The labs focus on core system administration and scripting skills that underpin **Security Operations (SOC)**, Incident Response, and Blue Team activities.
 
-----------------------------------------------------------------
+---
 
-LABS INCLUDED
+## Labs Included
 
-1) Lab 1 — Windows Server Administration
-   - Windows Server 2022 deployment
-   - Active Directory Domain Services (AD DS)
-   - Users and groups management
-   - Domain-joined Windows 11 workstation
-   - Task scheduling, firewall rules, updates, and backups
+### 1) Lab 1 — Windows Server Administration
 
-   Folder:
-   Lab-1-Windows-Server-Administration/
+- Windows Server 2022 deployment  
+- Active Directory Domain Services (AD DS)  
+- Users and groups management  
+- Domain-joined Windows 11 workstation  
+- Task scheduling, firewall rules, updates, and backups  
 
-2) Lab 2 — PowerShell Scripting
-   - PowerShell execution policy configuration
-   - Windows services management via PowerShell
-   - Object inspection with Select-Object
-   - Variables and arrays
-   - Basic scripting and GUI pop-up creation
+➡️ [Open Lab 01](Lab-1-Windows-Server-Administration/)
 
-   Folder:
-   Lab-2-PowerShell-Scripting/
+---
 
-----------------------------------------------------------------
+### 2) Lab 2 — PowerShell Scripting
 
-PURPOSE
+- PowerShell execution policy configuration  
+- Windows services management via PowerShell  
+- Object inspection using `Select-Object`  
+- Variables and arrays  
+- Basic scripting and GUI pop-up creation  
+
+➡️ [Open Lab 02](Lab-2-PowerShell-Scripting/)
+
+---
+
+### 3) Lab 3 — Linux Fundamentals (Ubuntu Administration)
+
+- User and group management  
+- File permissions and access control  
+- Process and service monitoring  
+- Network diagnostics and configuration  
+- Task scheduling (cron) and scripting  
+- Apache, Nagios, and Cockpit deployment  
+
+➡️ [Open Lab 03](Lab-3-Linux-Fundamentals/)
+
+---
+
+## Purpose
 
 These labs demonstrate:
-- Practical IT skills required for cybersecurity roles
-- Clear technical documentation
-- Understanding of systems commonly monitored and protected by SOC teams
 
-----------------------------------------------------------------
+- Practical IT skills required for cybersecurity roles  
+- Clear and structured technical documentation  
+- Understanding of systems commonly monitored and protected by SOC teams  
+- Cross-platform administration (Windows and Linux environments)  
 
-GITHUB PAGES
+---
 
-This repository is also published as a GitHub Pages site:
-https://giboris.github.io/IT-Fundamentals-Labs/
+## Notes
 
-----------------------------------------------------------------
+- Each lab contains:
+  - `README.md` → full documentation  
+  - `index.md` → web (GitHub Pages) version  
 
-DISCLAIMER
+- Screenshots are stored in the `Images/` folder inside each lab  
 
-All labs were performed in non-production, isolated environments.
-No real credentials, sensitive data, or production systems were used.
+---
+
+## GitHub Pages
+
+🌐 https://giboris.github.io/IT-Fundamentals-Labs/
