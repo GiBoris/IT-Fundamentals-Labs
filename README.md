@@ -41,7 +41,7 @@ The labs focus on core system administration and scripting skills that underpin 
 - Task scheduling (cron) and scripting  
 - Apache, Nagios, and Cockpit deployment  
 
-➡️ [Open Lab 03](Lab-3-Linux-Fundamentals/)
+➡️ [Open Lab 03](Lab-3-Linux-fundamentals/)
 
 ---
 
